@@ -1,0 +1,99 @@
+body {
+    font-family: "Microsoft Yahei";
+    margin: 0;
+    padding: 0;
+    }
+    
+    #container {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #modal {
+        width: 550px;
+        height: 275px;
+        border-radius: 5px;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 40px;
+    }
+    
+    #modal blockquote {
+        margin: 0;
+    }
+    
+    #quoteBox {
+        height: 220px;
+    }
+    
+    #random {
+        float: right;
+        padding: 15px;
+        font-size: 1.2em;
+    }
+    
+    #author {
+        text-align: center;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #facebook,
+    #twitter,
+    #random,
+    #author {
+        color: white;
+    }
+    
+    #facebook,
+    #twitter {
+        width: 50px;
+        height: 50px;
+    }
+    
+    button {
+    border: none;
+    font-family: "Microsoft Yahei";
+    }
+    
+    button:focus {
+        outline: none;
+    }
+    
+    body,
+    #facebook,
+    #twitter,
+    #random {
+        background-color: #27AE60;
+    }
+    
+    #quoteMark,
+    #quote,
+    #cite {
+        color: #27AE60;
+    }
+    
+    #quoteMark {
+        float: left;
+        margin-top: 8px;
+        margin-right: 8px;
+    }
+    
+    #quote {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    #cite {
+        float: right;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+    
+    button:hover {
+        filter: drop-shadow(5px 5px 5px grey);
+    }
