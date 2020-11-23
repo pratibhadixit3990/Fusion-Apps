@@ -159,8 +159,8 @@ html{
     font-size: 100px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease; 
     animation: myfirst .5s;
-    -moz-animation: myfirst .5s;	/* Firefox */
-    -webkit-animation: myfirst .5s;	/* Safari 和 Chrome */
+    -moz-animation: myfirst .5s;
+    -webkit-animation: myfirst .5s;	
   }
   .num4{
     background: #fafafa;
@@ -168,8 +168,8 @@ html{
     font-size: 100px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease; 
     animation: myfirst .5s;
-    -moz-animation: myfirst .5s;	/* Firefox */
-    -webkit-animation: myfirst .5s;	/* Safari 和 Chrome */
+    -moz-animation: myfirst .5s;
+    -webkit-animation: myfirst .5s;	
   }
   .num8{
     background: #f3f3f3;
