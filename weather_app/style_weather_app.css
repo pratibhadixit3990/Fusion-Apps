@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .container { 
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    /* background: #f3f3f3; */
+    /* background: gray; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card {
+    border: 3px solid mediumorchid;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: white;
+    padding: 15px;
+    position: relative;
+    border-radius: 15px;
+    height: 300px;
+  }
+  
+  .temp-img {
+    position: absolute;
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  
+  .button-container  button.rounded {
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #aaa;
+    z-index: 2;
+  }
+  button.rounded.active { 
+    background: lightblue;
+  }
+  
+  svg {
+    fill: lightblue;
+  }
+  
+  .weather {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  .place-container {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .place, .status {
+    margin: 10px 0;
+  }
+  .status {
+    color: gray;
+  }
+  .temp {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+  .temp {
+    position: relative;
+  }
+  .temp-unit.cel::after { 
+    content: 'o';
+    font-size: 3pt;
+    position: absolute;
+  }
+  
+  .temp-unit.feh::after { 
+    content: 'f';
+    font-size: 3pt;
+    position: absolute;
+  }
+  
+  input.place {
+    width: 80px;
+    outline: none;
+    border: none;
+    position: relative;
+    margin: 0 20px;
+    transition: all 1s ease;
+    height: 30px;
+  }
+  
+  input.place:focus {
+    width: 120px;
+    border: 1px solid lightgray;
+    padding-left: 15px;
+  }
+  
+  .error { 
+    color: red;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search {
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border: 3px solid mediumorchid;
+    
+  }
+
+  .footer{
+    margin-top: 35px;
+    background: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 3px solid mediumorchid;
+  }
