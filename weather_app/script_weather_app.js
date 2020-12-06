@@ -1,11 +1,11 @@
 const imgs = { 
-    Clouds: "https://i.pinimg.com/originals/aa/96/97/aa9697a3f7a61389675b8dc109518753.gif",
-    Mist: "https://www.pngkey.com/png/detail/123-1236518_smoke-haze-png-haze-png.png",
-    Rain: "https://giffiles.alphacoders.com/116/11620.gif",
-    Haze: "https://www.pngkey.com/png/detail/123-1236518_smoke-haze-png-haze-png.png",
-    Snow: "https://media1.tenor.com/images/735e68b36fb24b5cadda815230daad05/tenor.gif?itemid=13649339",
-    Clear: "https://ak.picdn.net/shutterstock/videos/7824385/thumb/4.jpg",
-    Thunderstorm: "https://i.pinimg.com/originals/14/0f/02/140f02ad145786db59e085b058749131.jpg"
+    Clouds: "gif/clear.gif",
+    Mist: "gif/mist.gif",
+    Rain: "gif/rain.gif",
+    Haze: "gif/haze.gif",
+    Snow: "gif/snow.gif",
+    Clear: "gif/clear.gif",
+    Thunderstorm: "gif/thunderstorm.gif"
    };
  const API_KEY = "14067ca47d30fb0bcb278f67509d646d";
  function getInfo(city) {
